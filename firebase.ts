@@ -10,7 +10,8 @@ const firebaseConfig = {
   projectId: "netflix-clone-nextjs-25ae8",
   storageBucket: "netflix-clone-nextjs-25ae8.appspot.com",
   messagingSenderId: "824163438278",
-  appId: "1:824163438278:web:74df8a4f22787a1b1811c7"
+  appId: "1:824163438278:web:74df8a4f22787a1b1811c7",
+  databaseURL:"https://netflix-clone-nextjs-25ae8-default-rtdb.firebaseio.com/"
 }
 
 // Initialize Firebase
