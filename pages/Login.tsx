@@ -11,7 +11,6 @@ type Inputs = {
 };
 
 const Login = () => {
-
   const [login, setLogin] = useState(false);
   const {signIn, signUp} = useAuth();
 
@@ -103,14 +102,13 @@ const Login = () => {
         </button>
 
         <div className="text-[gray]">
-          New to Netflix?{" "}
+          New to Netflix? {" "}
           <button
             onClick={() => setLogin(false)}
             type="submit"
             className="text-white hover:underline"
           >
-            {" "}
-            Sign Up now
+            Sign Up Now
           </button>
         </div>
       </form>
