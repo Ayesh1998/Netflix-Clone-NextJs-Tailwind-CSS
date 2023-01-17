@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import useAuth from "../hooks/useAuth";
 import { signOut } from "firebase/auth";
+import BasicMenu from "./BasicMenu";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,6 +34,8 @@ export default function Header() {
           height={100}
           className="cursor-pointer object-contain"
         />
+
+        <BasicMenu />
 
         <ul className="hidden space-x-4 md:flex">
           <li className="headerLink">Home</li>
